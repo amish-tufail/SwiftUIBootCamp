@@ -11,6 +11,8 @@
 		EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFC22B3F29CD00422ED5 /* ContentView.swift */; };
 		EEAABFC52B3F29CE00422ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAABFC42B3F29CE00422ED5 /* Assets.xcassets */; };
 		EEAABFC82B3F29CE00422ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAABFC72B3F29CE00422ED5 /* Preview Assets.xcassets */; };
+		EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFCE2B3F29DE00422ED5 /* ViewThatFitView.swift */; };
+		EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EEAABFC22B3F29CD00422ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEAABFC42B3F29CE00422ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAABFC72B3F29CE00422ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEAABFCE2B3F29DE00422ED5 /* ViewThatFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitView.swift; sourceTree = "<group>"; };
+		EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EEAABFC02B3F29CD00422ED5 /* SwiftUIBootCampApp.swift */,
 				EEAABFC22B3F29CD00422ED5 /* ContentView.swift */,
+				EEAABFCE2B3F29DE00422ED5 /* ViewThatFitView.swift */,
+				EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */,
 				EEAABFC42B3F29CE00422ED5 /* Assets.xcassets */,
 				EEAABFC62B3F29CE00422ED5 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,
+				EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */,
 				EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,
 			);
