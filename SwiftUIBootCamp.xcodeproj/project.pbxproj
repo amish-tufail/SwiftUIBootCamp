@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
+		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
 		EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFC02B3F29CD00422ED5 /* SwiftUIBootCampApp.swift */; };
 		EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFC22B3F29CD00422ED5 /* ContentView.swift */; };
 		EEAABFC52B3F29CE00422ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAABFC42B3F29CE00422ED5 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
+		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
 		EEAABFBD2B3F29CD00422ED5 /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAABFC02B3F29CD00422ED5 /* SwiftUIBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampApp.swift; sourceTree = "<group>"; };
 		EEAABFC22B3F29CD00422ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */,
 				EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */,
+				EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */,
 				EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */,
 				EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */,
+				EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */,
 				EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */,
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,

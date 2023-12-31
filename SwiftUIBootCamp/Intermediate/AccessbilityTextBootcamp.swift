@@ -56,6 +56,8 @@ extension DynamicTypeSize {
             return 0.5
         case .accessibility5:
             return 0.45
+        default:
+            return 0.45
         }
     }
 }
