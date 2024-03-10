@@ -19,6 +19,7 @@
 		EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */; };
 		EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFD22B3F2FCD00422ED5 /* PopOverBootCamp.swift */; };
 		EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */; };
+		EEDCF8072B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootCamp.swift; sourceTree = "<group>"; };
 		EEAABFD22B3F2FCD00422ED5 /* PopOverBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiersBootCamp.swift; sourceTree = "<group>"; };
+		EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */,
+				EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,
 				EE3BD3B42B433033004326CB /* AlignmentGuideBootCamp.swift in Sources */,
+				EEDCF8072B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
