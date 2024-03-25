@@ -21,6 +21,7 @@
 		EED389FA2B9F7ED100100520 /* ProtocolBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED389F92B9F7ED100100520 /* ProtocolBootCamp.swift */; };
 		EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */; };
 		EED38A1F2BB10C9F00100520 /* ThreadsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */; };
+		EED38A212BB1116600100520 /* WeakSelfBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED38A202BB1116600100520 /* WeakSelfBootCamp.swift */; };
 		EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */; };
 		EEDCF8072B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */; };
 		EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8082B9DF08600F62A48 /* CustomTransitionBootCamp.swift */; };
@@ -45,6 +46,7 @@
 		EED389F92B9F7ED100100520 /* ProtocolBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBootCamp.swift; sourceTree = "<group>"; };
 		EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootCamp.swift; sourceTree = "<group>"; };
 		EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsBootCamp.swift; sourceTree = "<group>"; };
+		EED38A202BB1116600100520 /* WeakSelfBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiersBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8082B9DF08600F62A48 /* CustomTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionBootCamp.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				EE3BD3B32B433033004326CB /* AlignmentGuideBootCamp.swift */,
 				EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */,
 				EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */,
+				EED38A202BB1116600100520 /* WeakSelfBootCamp.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */,
 				EEDCF80B2B9DF5AA00F62A48 /* MatchGeometryEffectBootCamp.swift in Sources */,
 				EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */,
+				EED38A212BB1116600100520 /* WeakSelfBootCamp.swift in Sources */,
 				EED389FA2B9F7ED100100520 /* ProtocolBootCamp.swift in Sources */,
 				EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */,
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
