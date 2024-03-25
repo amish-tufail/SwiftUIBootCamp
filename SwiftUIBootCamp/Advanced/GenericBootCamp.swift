@@ -11,7 +11,7 @@ struct GenericModel<T> { // Generic Model
     let value: T
 }
 
-struct GenericView<T: View>: View { // Generic View
+struct GenericView<T: View>: View { // Generic Viewx
     let content: T
     var body: some View {
         VStack {

@@ -18,6 +18,9 @@
 		EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFCE2B3F29DE00422ED5 /* ViewThatFitView.swift */; };
 		EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */; };
 		EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAABFD22B3F2FCD00422ED5 /* PopOverBootCamp.swift */; };
+		EED389FA2B9F7ED100100520 /* ProtocolBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED389F92B9F7ED100100520 /* ProtocolBootCamp.swift */; };
+		EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */; };
+		EED38A1F2BB10C9F00100520 /* ThreadsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */; };
 		EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */; };
 		EEDCF8072B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */; };
 		EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCF8082B9DF08600F62A48 /* CustomTransitionBootCamp.swift */; };
@@ -39,6 +42,9 @@
 		EEAABFCE2B3F29DE00422ED5 /* ViewThatFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitView.swift; sourceTree = "<group>"; };
 		EEAABFD02B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootCamp.swift; sourceTree = "<group>"; };
 		EEAABFD22B3F2FCD00422ED5 /* PopOverBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverBootCamp.swift; sourceTree = "<group>"; };
+		EED389F92B9F7ED100100520 /* ProtocolBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBootCamp.swift; sourceTree = "<group>"; };
+		EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootCamp.swift; sourceTree = "<group>"; };
+		EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8042B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiersBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8062B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleBootCamp.swift; sourceTree = "<group>"; };
 		EEDCF8082B9DF08600F62A48 /* CustomTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionBootCamp.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 				EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */,
 				EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */,
 				EE3BD3B32B433033004326CB /* AlignmentGuideBootCamp.swift */,
+				EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */,
+				EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -126,6 +134,7 @@
 				EEDCF80A2B9DF5AA00F62A48 /* MatchGeometryEffectBootCamp.swift */,
 				EEDCF80C2B9DF93100F62A48 /* GenericBootCamp.swift */,
 				EEDCF80E2B9E08D400F62A48 /* ViewBuilderBootCamp.swift */,
+				EED389F92B9F7ED100100520 /* ProtocolBootCamp.swift */,
 			);
 			path = Advanced;
 			sourceTree = "<group>";
@@ -200,14 +209,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED38A1F2BB10C9F00100520 /* ThreadsBootCamp.swift in Sources */,
 				EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */,
 				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,
 				EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */,
+				EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */,
 				EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */,
 				EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */,
 				EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */,
 				EEDCF80B2B9DF5AA00F62A48 /* MatchGeometryEffectBootCamp.swift in Sources */,
 				EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */,
+				EED389FA2B9F7ED100100520 /* ProtocolBootCamp.swift in Sources */,
 				EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */,
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,
