@@ -28,12 +28,12 @@ struct HashableBootCamp: View {
             Text("-------------------------")
             Text("-------------------------")
             ForEach(data) { item in
-                Text(item.title.hashValue.description)
+                Text(item.id)
             }
             Text("-------------------------")
             Text("-------------------------")
             ForEach(dataTwo, id: \.self) { item in
-                Text(item.hashValue.description)
+                Text(item.title.hashValue.description)
             }
         }
     }
@@ -44,7 +44,7 @@ struct HashableBootCamp: View {
 }
 
 struct MyCustomModel: Identifiable {
-    let id = UUID()
+    let id = UUID().uuidString
     let title: String
 }
 

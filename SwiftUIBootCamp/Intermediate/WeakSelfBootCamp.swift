@@ -49,7 +49,7 @@ class WeakVM: ObservableObject {
     
     func getData() {
 //        DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-//            // Now here suppose this data was coming from internet, it might take some time to return, user can leave this screen, now here self.data creates a strong reference meaning that the class absoulte needs this and cant be de-init until this data returns, so even if user leaves the screen the data is still be returning which is something we dont want, we want a weak referenc
+//            // Now here suppose this data was coming from internet, it might take some time to return, user can leave this screen, now here self.data creates a strong reference meaning that the class absoulte needs this and cant be de-init until this data returns, so even if user leaves the screen the data is still be returning which is something we dont want, we want a weak reference
 //            self.data = "NEW DATA!"
 //        }
         // So Soln is:

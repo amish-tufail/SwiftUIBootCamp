@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045C75062BD23EDE00DDA0EB /* EscapingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C75052BD23EDD00DDA0EB /* EscapingBootCamp.swift */; };
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
 		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045C75052BD23EDD00DDA0EB /* EscapingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootCamp.swift; sourceTree = "<group>"; };
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				EED38A1C2BB107FB00100520 /* HashableBootCamp.swift */,
 				EED38A1E2BB10C9F00100520 /* ThreadsBootCamp.swift */,
 				EED38A202BB1116600100520 /* WeakSelfBootCamp.swift */,
+				045C75052BD23EDD00DDA0EB /* EscapingBootCamp.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045C75062BD23EDE00DDA0EB /* EscapingBootCamp.swift in Sources */,
 				EED38A1F2BB10C9F00100520 /* ThreadsBootCamp.swift in Sources */,
 				EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */,
 				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,

@@ -24,7 +24,7 @@ struct ViewThatFitView: View {
                 Text("This is a my message to you")
             }
         }
-        .frame(width: 300.0, height: 350.0)
+        .frame(width: 350.0, height: 350.0)
         .background(.red)
         .padding()
     }
