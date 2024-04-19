@@ -77,14 +77,12 @@ class EscapingViewModel: ObservableObject {
     
     // We can make even more better
     
-    func downloadData7(completionHandler: @escaping DownloadCompletion)  {
+    func downloadData7(completionHandler: @escaping DownloadCompletion) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             let result = DownloadResult(data: "Hello Data!", data2: 12345)
             completionHandler(result)
         }
     }
-    
-    
 }
 
 
