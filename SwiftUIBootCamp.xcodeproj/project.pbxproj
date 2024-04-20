@@ -12,6 +12,7 @@
 		048034072BD2C65100B14489 /* DownloadJSONEscapingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034062BD2C65100B14489 /* DownloadJSONEscapingBootCamp.swift */; };
 		048034092BD2D52000B14489 /* DownloadJSONCombineBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034082BD2D52000B14489 /* DownloadJSONCombineBootCamp.swift */; };
 		0480340B2BD3A3E500B14489 /* TimerBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480340A2BD3A3E500B14489 /* TimerBootCamp.swift */; };
+		0480340D2BD3AE8A00B14489 /* PubSubBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */; };
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
 		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
@@ -41,6 +42,7 @@
 		048034062BD2C65100B14489 /* DownloadJSONEscapingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONEscapingBootCamp.swift; sourceTree = "<group>"; };
 		048034082BD2D52000B14489 /* DownloadJSONCombineBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJSONCombineBootCamp.swift; sourceTree = "<group>"; };
 		0480340A2BD3A3E500B14489 /* TimerBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootCamp.swift; sourceTree = "<group>"; };
+		0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubSubBootCamp.swift; sourceTree = "<group>"; };
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				048034062BD2C65100B14489 /* DownloadJSONEscapingBootCamp.swift */,
 				048034082BD2D52000B14489 /* DownloadJSONCombineBootCamp.swift */,
 				0480340A2BD3A3E500B14489 /* TimerBootCamp.swift */,
+				0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */,
 				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,
 				EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */,
+				0480340D2BD3AE8A00B14489 /* PubSubBootCamp.swift in Sources */,
 				EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */,
 				EEAABFD12B3F2CCE00422ED5 /* AnyLayoutBootCamp.swift in Sources */,
 				EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */,
