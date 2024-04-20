@@ -10,7 +10,7 @@ import Combine
 
 class DownloadJSONCombineViewModel: ObservableObject {
     @Published var posts: [PostModel] = []
-    var cancellables = Set<AnyCancellable>()
+    var cancellables = Set<AnyCancellable>() // we store our publisher here
     init() {
         getPosts()
     }
@@ -37,7 +37,7 @@ class DownloadJSONCombineViewModel: ObservableObject {
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background)) // Don't need here, as .dataTaskPublisher(for: url) goes into background
             .receive(on: DispatchQueue.main) // Go to main thread when receieved
-//            .tryMap { (data, response) -> Data in // Map it to type as here is Data and deal with an error if any
+//            .tryMap { (data, response) -> Data? in // Map it to type as here is Data and deal with an error if any
 //                guard
 //                    let response = response as? HTTPURLResponse,
 //                    response.statusCode >= 200 && response.statusCode < 300 else {
