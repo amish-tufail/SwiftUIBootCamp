@@ -11,8 +11,8 @@ import Combine
 struct DownloadImageView: View {
     @StateObject var loader: DownloadImageViewModel
     
-    init(url: String) {
-        _loader = StateObject(wrappedValue: DownloadImageViewModel(url: url))
+    init(url: String, key: String) {
+        _loader = StateObject(wrappedValue: DownloadImageViewModel(url: url, imageKey: key))
     }
     var body: some View {
         ZStack {
@@ -28,18 +28,24 @@ struct DownloadImageView: View {
 }
 
 #Preview {
-    DownloadImageView(url: "https://via.placeholder.com/600/92c952")
+    DownloadImageView(url: "https://via.placeholder.com/600/92c952", key: "1")
 }
 
 class DownloadImageViewModel: ObservableObject {
     @Published var image: UIImage? = nil
     @Published var isLoading: Bool = false
     let urlString: String
+    let imageKey: String
     var cancellables = Set<AnyCancellable>()
     
-    init(url: String) {
+    // For both the cache and File manager the same code, just change managers
+    let manager = PhotoModelCacheManager.shared
+//    let manager = PhotoFileManager.shared
+    
+    init(url: String, imageKey: String) {
         urlString = url
-        downloadImage()
+        self.imageKey = imageKey
+        getImage()
     }
     
     func downloadImage() {
@@ -56,8 +62,22 @@ class DownloadImageViewModel: ObservableObject {
             .sink { [weak self] (_) in
                 self?.isLoading = false
             } receiveValue: { [weak self] (returnedImage) in
-                self?.image = returnedImage
+                guard 
+                    let self = self,
+                    let image = returnedImage else { return }
+                self.image = returnedImage
+                self.manager.add(key: self.imageKey, image: image)
             }
             .store(in: &cancellables)
+    }
+    
+    func getImage() {
+        if let savedImage = manager.get(key: imageKey) {
+            image = savedImage
+            print("Getting saved image.")
+        } else {
+            downloadImage()
+            print("Downloading image.")
+        }
     }
 }
