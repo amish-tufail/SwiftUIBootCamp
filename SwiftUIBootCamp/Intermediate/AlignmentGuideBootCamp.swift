@@ -19,18 +19,19 @@ struct AlignmentGuideBootCamp: View {
                     .background(.green)
             }
             .background(.orange)
-            
+             
             VStack(alignment: .leading) {
                 Text("Hello")
                     .background(.red)
                     .alignmentGuide(.leading, computeValue: { dimension in
-                        return 50.0
+                        return dimension.width
+//                        return 50.0
                     }) // Now here it fixes this
                 Text("Hello Worl! Hello Planet!")
                     .background(.green)
             }
             .background(.orange)
-            VStack {
+            VStack(alignment: .center) {
                 HStack {
                     if show {
                         Image(systemName: "heart.fill")
@@ -51,6 +52,9 @@ struct AlignmentGuideBootCamp: View {
                     Text("Hello")
                     Spacer()
                 }
+                .alignmentGuide(.leading, computeValue: { dimension in
+                    return show ? 100.0 : 0.0
+                })
                 .background(.red)
                 HStack {
                     Image(systemName: "heart.fill")
