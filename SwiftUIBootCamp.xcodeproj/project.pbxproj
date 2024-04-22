@@ -15,6 +15,8 @@
 		0480340D2BD3AE8A00B14489 /* PubSubBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */; };
 		0480340F2BD3CF1C00B14489 /* SaveFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480340E2BD3CF1C00B14489 /* SaveFileManager.swift */; };
 		048034112BD6BE6100B14489 /* NSCacheBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034102BD6BE6100B14489 /* NSCacheBootCamp.swift */; };
+		048034132BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034122BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift */; };
+		048034162BD6D10200B14489 /* DownloadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034152BD6D10200B14489 /* DownloadImageView.swift */; };
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
 		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
@@ -47,6 +49,8 @@
 		0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubSubBootCamp.swift; sourceTree = "<group>"; };
 		0480340E2BD3CF1C00B14489 /* SaveFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveFileManager.swift; sourceTree = "<group>"; };
 		048034102BD6BE6100B14489 /* NSCacheBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSCacheBootCamp.swift; sourceTree = "<group>"; };
+		048034122BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSaveImageBootCamp.swift; sourceTree = "<group>"; };
+		048034152BD6D10200B14489 /* DownloadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageView.swift; sourceTree = "<group>"; };
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048034142BD6D0F100B14489 /* DownloadImage */ = {
+			isa = PBXGroup;
+			children = (
+				048034122BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift */,
+				048034152BD6D10200B14489 /* DownloadImageView.swift */,
+			);
+			path = DownloadImage;
+			sourceTree = "<group>";
+		};
 		EE3BD3A92B4072A4004326CB /* Basic */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +124,7 @@
 				0480340C2BD3AE8A00B14489 /* PubSubBootCamp.swift */,
 				0480340E2BD3CF1C00B14489 /* SaveFileManager.swift */,
 				048034102BD6BE6100B14489 /* NSCacheBootCamp.swift */,
+				048034142BD6D0F100B14489 /* DownloadImage */,
 			);
 			path = Intermediate;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 				0480340F2BD3CF1C00B14489 /* SaveFileManager.swift in Sources */,
 				EEDCF8092B9DF08600F62A48 /* CustomTransitionBootCamp.swift in Sources */,
 				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,
+				048034132BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift in Sources */,
 				EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */,
 				0480340D2BD3AE8A00B14489 /* PubSubBootCamp.swift in Sources */,
 				EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */,
@@ -258,6 +273,7 @@
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,
 				048034112BD6BE6100B14489 /* NSCacheBootCamp.swift in Sources */,
+				048034162BD6D10200B14489 /* DownloadImageView.swift in Sources */,
 				EE3BD3B42B433033004326CB /* AlignmentGuideBootCamp.swift in Sources */,
 				0480340B2BD3A3E500B14489 /* TimerBootCamp.swift in Sources */,
 				EEDCF80F2B9E08D400F62A48 /* ViewBuilderBootCamp.swift in Sources */,
