@@ -20,6 +20,7 @@
 		0480341A2BD6E21900B14489 /* VisualEffectModifierBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048034192BD6E21900B14489 /* VisualEffectModifierBootCamp.swift */; };
 		0480341C2BD6E60200B14489 /* PagingScrollBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480341B2BD6E60200B14489 /* PagingScrollBootCamp.swift */; };
 		048E955A2BDB7314007FFCAE /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */; };
+		048E955D2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E955B2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld */; };
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
 		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
@@ -57,6 +58,7 @@
 		048034192BD6E21900B14489 /* VisualEffectModifierBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectModifierBootCamp.swift; sourceTree = "<group>"; };
 		0480341B2BD6E60200B14489 /* PagingScrollBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollBootCamp.swift; sourceTree = "<group>"; };
 		048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
+		048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */,
+				048E955B2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				EE3BD3B42B433033004326CB /* AlignmentGuideBootCamp.swift in Sources */,
 				0480340B2BD3A3E500B14489 /* TimerBootCamp.swift in Sources */,
 				EEDCF80F2B9E08D400F62A48 /* ViewBuilderBootCamp.swift in Sources */,
+				048E955D2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld in Sources */,
 				EEDCF80D2B9DF93100F62A48 /* GenericBootCamp.swift in Sources */,
 				EEDCF8072B9DEA1100F62A48 /* CustomButtonStyleBootCamp.swift in Sources */,
 			);
@@ -504,6 +508,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048E955B2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = "/Users/mac/Documents/Personal-Projects/SwiftUIBootCamp/SwiftUIBootCamp/CoreData/FruitsContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EEAABFB52B3F29CD00422ED5 /* Project object */;
 }
