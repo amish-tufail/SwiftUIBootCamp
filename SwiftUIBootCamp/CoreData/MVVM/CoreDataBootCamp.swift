@@ -53,7 +53,7 @@ struct CoreDataBootCamp: View {
     CoreDataBootCamp()
 }
 
-
+// ViewModel
 class CoreDataViewModel: ObservableObject {
     let container: NSPersistentContainer // Setup container
     

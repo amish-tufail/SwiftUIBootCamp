@@ -21,6 +21,10 @@
 		0480341C2BD6E60200B14489 /* PagingScrollBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480341B2BD6E60200B14489 /* PagingScrollBootCamp.swift */; };
 		048E955A2BDB7314007FFCAE /* CoreDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */; };
 		048E955D2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E955B2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld */; };
+		048E95612BDB7D90007FFCAE /* CoreDataRelationshipBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95602BDB7D90007FFCAE /* CoreDataRelationshipBootCamp.swift */; };
+		048E95632BDB832D007FFCAE /* CoreDataRelationshipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95622BDB832D007FFCAE /* CoreDataRelationshipViewModel.swift */; };
+		048E95652BDB83FE007FFCAE /* CoreDataRelationshipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E95642BDB83FE007FFCAE /* CoreDataRelationshipManager.swift */; };
+		048E95682BDB84A8007FFCAE /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048E95662BDB84A8007FFCAE /* CoreDataContainer.xcdatamodeld */; };
 		EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */; };
 		EE3BD3AE2B407991004326CB /* AccessbilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */; };
 		EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */; };
@@ -59,6 +63,10 @@
 		0480341B2BD6E60200B14489 /* PagingScrollBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollBootCamp.swift; sourceTree = "<group>"; };
 		048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootCamp.swift; sourceTree = "<group>"; };
 		048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		048E95602BDB7D90007FFCAE /* CoreDataRelationshipBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipBootCamp.swift; sourceTree = "<group>"; };
+		048E95622BDB832D007FFCAE /* CoreDataRelationshipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipViewModel.swift; sourceTree = "<group>"; };
+		048E95642BDB83FE007FFCAE /* CoreDataRelationshipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipManager.swift; sourceTree = "<group>"; };
+		048E95672BDB84A8007FFCAE /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		EE3BD3AB2B4072C8004326CB /* AccessbilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityTextBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AD2B407991004326CB /* AccessbilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityColorBootcamp.swift; sourceTree = "<group>"; };
 		EE3BD3AF2B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessbilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
@@ -106,10 +114,30 @@
 		0480341D2BD8BEE900B14489 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				048E955E2BDB7D4A007FFCAE /* MVVM */,
+				048E955F2BDB7D59007FFCAE /* Relationships */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		048E955E2BDB7D4A007FFCAE /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
 				048E95592BDB7314007FFCAE /* CoreDataBootCamp.swift */,
 				048E955B2BDB745A007FFCAE /* FruitsContainer.xcdatamodeld */,
 			);
-			path = CoreData;
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		048E955F2BDB7D59007FFCAE /* Relationships */ = {
+			isa = PBXGroup;
+			children = (
+				048E95602BDB7D90007FFCAE /* CoreDataRelationshipBootCamp.swift */,
+				048E95622BDB832D007FFCAE /* CoreDataRelationshipViewModel.swift */,
+				048E95642BDB83FE007FFCAE /* CoreDataRelationshipManager.swift */,
+				048E95662BDB84A8007FFCAE /* CoreDataContainer.xcdatamodeld */,
+			);
+			path = Relationships;
 			sourceTree = "<group>";
 		};
 		EE3BD3A92B4072A4004326CB /* Basic */ = {
@@ -278,6 +306,7 @@
 				EEAABFCF2B3F29DE00422ED5 /* ViewThatFitView.swift in Sources */,
 				048034132BD6C6D500B14489 /* DownloadSaveImageBootCamp.swift in Sources */,
 				EEDCF8052B9DE72E00F62A48 /* CustomViewModifiersBootCamp.swift in Sources */,
+				048E95682BDB84A8007FFCAE /* CoreDataContainer.xcdatamodeld in Sources */,
 				0480340D2BD3AE8A00B14489 /* PubSubBootCamp.swift in Sources */,
 				048E955A2BDB7314007FFCAE /* CoreDataBootCamp.swift in Sources */,
 				EED38A1D2BB107FB00100520 /* HashableBootCamp.swift in Sources */,
@@ -287,11 +316,14 @@
 				048034072BD2C65100B14489 /* DownloadJSONEscapingBootCamp.swift in Sources */,
 				EE3BD3AC2B4072C8004326CB /* AccessbilityTextBootcamp.swift in Sources */,
 				EEDCF80B2B9DF5AA00F62A48 /* MatchGeometryEffectBootCamp.swift in Sources */,
+				048E95612BDB7D90007FFCAE /* CoreDataRelationshipBootCamp.swift in Sources */,
 				048034052BD2B6D500B14489 /* CodableBootCamp.swift in Sources */,
+				048E95632BDB832D007FFCAE /* CoreDataRelationshipViewModel.swift in Sources */,
 				EE3BD3B02B41C5DE004326CB /* AccessbilityVoiceOverBootcamp.swift in Sources */,
 				EED38A212BB1116600100520 /* WeakSelfBootCamp.swift in Sources */,
 				0480341A2BD6E21900B14489 /* VisualEffectModifierBootCamp.swift in Sources */,
 				EED389FA2B9F7ED100100520 /* ProtocolBootCamp.swift in Sources */,
+				048E95652BDB83FE007FFCAE /* CoreDataRelationshipManager.swift in Sources */,
 				EEAABFC32B3F29CD00422ED5 /* ContentView.swift in Sources */,
 				EEAABFD32B3F2FCD00422ED5 /* PopOverBootCamp.swift in Sources */,
 				EEAABFC12B3F29CD00422ED5 /* SwiftUIBootCampApp.swift in Sources */,
@@ -516,8 +548,18 @@
 				048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */,
 			);
 			currentVersion = 048E955C2BDB745A007FFCAE /* FruitsContainer.xcdatamodel */;
-			name = FruitsContainer.xcdatamodeld;
-			path = "/Users/mac/Documents/Personal-Projects/SwiftUIBootCamp/SwiftUIBootCamp/CoreData/FruitsContainer.xcdatamodeld";
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		048E95662BDB84A8007FFCAE /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048E95672BDB84A8007FFCAE /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 048E95672BDB84A8007FFCAE /* CoreDataContainer.xcdatamodel */;
+			name = CoreDataContainer.xcdatamodeld;
+			path = "/Users/mac/Documents/Personal-Projects/SwiftUIBootCamp/SwiftUIBootCamp/CoreData/Relationships/CoreDataContainer.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
