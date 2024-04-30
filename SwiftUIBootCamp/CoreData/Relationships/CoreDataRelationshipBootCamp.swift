@@ -15,7 +15,7 @@ struct CoreDataRelationshipBootCamp: View {
             ScrollView {
                 VStack(spacing: 20.0) {
                     Button {
-                        vm.addDepartment()
+                        vm.deleteDepartment()
                     } label: {
                         Text("Perform Action")
                             .foregroundStyle(.white)
@@ -38,6 +38,14 @@ struct CoreDataRelationshipBootCamp: View {
                         HStack(alignment: .top) {
                             ForEach(vm.departments) { department in
                                 DepartmentView(entity: department)
+                            }
+                        }
+                    }
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(alignment: .top) {
+                            ForEach(vm.employees) { employee in
+                                EmployeeView(entity: employee)
                             }
                         }
                     }
@@ -65,7 +73,7 @@ struct BusinessView: View {
                     .bold()
                 ForEach(departments) { department in
                     Text(department.name ?? "")
-                        .bold()
+                        .font(.caption)
                 }
             }
             
@@ -74,7 +82,7 @@ struct BusinessView: View {
                     .bold()
                 ForEach(employees) { employee in
                     Text(employee.name ?? "")
-                        .bold()
+                        .font(.caption)
                 }
             }
         }
@@ -94,10 +102,11 @@ struct DepartmentView: View {
                 .font(.title3)
                 .bold()
             if let businesses = entity.business?.allObjects as? [DepartmentEntity] {
-                Text("Departments:")
+                Text("Businesses:")
                     .bold()
                 ForEach(businesses) { business in
                     Text(business.name ?? "")
+                        .font(.caption)
                 }
             }
             
@@ -106,12 +115,48 @@ struct DepartmentView: View {
                     .bold()
                 ForEach(employees) { employee in
                     Text(employee.name ?? "")
+                        .font(.caption)
                 }
             }
         }
         .padding()
         .frame(maxWidth: 300.0, alignment: .leading)
         .background(.green.opacity(0.5))
+        .clipShape(.rect(cornerRadius: 10.0))
+        .shadow(radius: 10.0)
+    }
+}
+
+struct EmployeeView: View {
+    let entity: EmployeeEntity
+    var body: some View {
+        VStack(alignment: .leading, spacing: 20.0) {
+            Text("Name: \(entity.name ?? "")")
+                .font(.title3)
+                .bold()
+            Text("Age: \(entity.age)")
+                .font(.title3)
+                .bold()
+            Text("Date Joined: \(entity.dateJoined ?? Date())")
+                .font(.title3)
+                .bold()
+            if let business = entity.business {
+                Text("Business:")
+                    .bold()
+                Text(business.name ?? "")
+                    .font(.caption)
+            }
+            
+            if let department = entity.department {
+                Text("Department:")
+                    .bold()
+                Text(department.name ?? "")
+                    .font(.caption)
+            }
+        }
+        .padding()
+        .frame(maxWidth: 300.0, alignment: .leading)
+        .background(.blue.opacity(0.5))
         .clipShape(.rect(cornerRadius: 10.0))
         .shadow(radius: 10.0)
     }
